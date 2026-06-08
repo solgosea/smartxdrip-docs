@@ -4,10 +4,10 @@
 
 <div class="sx-hero-eyebrow">FOR XDRIP+ · NIGHTSCOUT · COMMUNITY REVIEW</div>
 
-# A companion review app for xDrip+ and Nightscout users.
+# Already using xDrip+ or Nightscout?
 
 <p class="sx-hero-sub">
-SmartXDrip is being designed for people who already collect CGM data with xDrip+ or Nightscout. It does not replace either project. It keeps them as the source of truth and adds a calmer way to review daily status, history, and statistics.
+SmartXDrip is a planned companion app for reviewing CGM data more clearly. Not another CGM source. Not a replacement. Just calmer Home, History, and Stats views built around the data you already collect.
 </p>
 
 <div class="sx-hero-actions" markdown>
@@ -32,6 +32,34 @@ SmartXDrip is being designed for people who already collect CGM data with xDrip+
     <div class="sx-stat-value">Feedback</div>
     <div class="sx-stat-label">Before development hardens</div>
   </div>
+</div>
+
+</div>
+
+---
+
+<span class="sx-eyebrow">First planned screens</span>
+
+## Home, History, and Stats
+
+<div class="sx-preview-grid" markdown>
+
+<div class="sx-preview" markdown>
+<div class="sx-preview-title">Home</div>
+![Home preview](assets/screenshots/home-hero.png)
+<p>What is happening with my glucose today?</p>
+</div>
+
+<div class="sx-preview" markdown>
+<div class="sx-preview-title">History</div>
+![History preview](assets/screenshots/history-hero.png)
+<p>What happened on a specific day?</p>
+</div>
+
+<div class="sx-preview" markdown>
+<div class="sx-preview-title">Stats</div>
+![Stats preview](assets/screenshots/stats-hero.png)
+<p>What patterns are emerging over time?</p>
 </div>
 
 </div>
@@ -65,7 +93,7 @@ SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightsco
 
 <span class="sx-eyebrow">First planned release</span>
 
-## Planned features
+## What each screen tries to solve
 
 <div class="sx-feature-grid" markdown>
 
@@ -96,7 +124,7 @@ SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightsco
 
 ## Why publish this now?
 
-This repository is being published before the product is finalized so CGM users can react to the direction early.
+This repository is being published before the product is finalized so xDrip+ and Nightscout users can react to the direction early.
 
 The most useful feedback right now is:
 

@@ -1,6 +1,8 @@
 # SmartXDrip Docs
 
-This repository hosts the public product plan, feature previews, and community feedback space for SmartXDrip.
+## Already using xDrip+ or Nightscout?
+
+SmartXDrip is a planned companion app for reviewing CGM data more clearly. It does not replace xDrip+ or Nightscout. It focuses on Home, History, and Stats views for the data you already collect.
 
 View the documentation site:
 
@@ -10,39 +12,30 @@ https://solgosea.github.io/smartxdrip-docs/
 
 ## First planned screens
 
-<p>
-  <img src="docs/assets/screenshots/home-hero.png" width="220" alt="Home screen preview">
-  <img src="docs/assets/screenshots/history-hero.png" width="220" alt="History screen preview">
-  <img src="docs/assets/screenshots/stats-hero.png" width="220" alt="Stats screen preview">
-</p>
+<table>
+  <tr>
+    <td align="center"><strong>Home</strong></td>
+    <td align="center"><strong>History</strong></td>
+    <td align="center"><strong>Stats</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/assets/screenshots/home-hero.png" width="220" alt="Home screen preview"></td>
+    <td><img src="docs/assets/screenshots/history-hero.png" width="220" alt="History screen preview"></td>
+    <td><img src="docs/assets/screenshots/stats-hero.png" width="220" alt="Stats screen preview"></td>
+  </tr>
+</table>
 
-The first planned release focuses on Home, History, and Stats for reviewing existing xDrip+ or Nightscout data.
+## Why this exists
 
-SmartXDrip is a planned companion review app for people who already use xDrip+ or Nightscout. It does not replace either project. It keeps xDrip+ and Nightscout as the data sources and focuses on calmer daily review, history, and statistics.
+xDrip+ and Nightscout are powerful parts of the CGM ecosystem. SmartXDrip is exploring whether users also need a calmer review layer for daily status, day-by-day history, and multi-day statistics.
 
-## Repository scope
+The goal is to help answer:
 
-This repository contains:
+- What is happening with my glucose today?
+- What happened on a difficult day?
+- Are my Time in Range, average glucose, and variability changing?
 
-- Product direction notes
-- Planned feature previews
-- Screenshots and mockups
-- Privacy and safety notes
-- Community feedback material
-
-This repository does not currently contain the SmartXDrip application source code.
-
-## First public batch
-
-The first documentation batch focuses on the planned MVP:
-
-- Home
-- History
-- Stats
-- xDrip+ and Nightscout as the source of truth
-- Privacy and medical-safety boundaries
-
-## Product boundaries
+## What this is not
 
 SmartXDrip is not intended to:
 
@@ -52,6 +45,22 @@ SmartXDrip is not intended to:
 - Act as an alerting system
 - Make treatment recommendations
 - Provide medical advice
+
+## Feedback wanted
+
+The first public review focuses on:
+
+- Whether Home, History, and Stats are the right first screens
+- What xDrip+ users would expect from a review app
+- What Nightscout users would expect from a review app
+- Which details feel useful, confusing, or unnecessary
+- Where SmartXDrip should stop so it does not duplicate existing tools
+
+## Repository scope
+
+This repository contains product direction notes, planned feature previews, screenshots, privacy and safety notes, and community feedback material.
+
+This repository does not currently contain the SmartXDrip application source code.
 
 ## Local preview
 
