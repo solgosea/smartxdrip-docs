@@ -2,6 +2,12 @@
 
 This repository hosts the public product plan, feature previews, and community feedback space for SmartXDrip.
 
+View the documentation site:
+
+```text
+https://solgosea.github.io/smartxdrip-docs/
+```
+
 SmartXDrip is a planned companion review app for people who already use xDrip+ or Nightscout. It does not replace either project. It keeps xDrip+ and Nightscout as the data sources and focuses on calmer daily review, history, and statistics.
 
 ## Repository scope
