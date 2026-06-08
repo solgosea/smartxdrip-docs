@@ -12,7 +12,7 @@ The current design goals are:
 
 - No required account
 - No SmartXDrip-operated glucose-data cloud
-- No advertising or analytics SDKs
+- No advertising or analytics SDKs inside the SmartXDrip app
 - Local storage for glucose readings
 - User-controlled data sources
 - Read-only access to [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) data
@@ -42,6 +42,14 @@ The intended model is:
 - SmartXDrip does not replace the safety workflows users already rely on
 
 If implementation requires any change to this model, the documentation should be updated clearly before release.
+
+---
+
+## Website analytics
+
+This documentation website uses Baidu Tongji to understand page visits and traffic sources. The purpose is to learn which public documentation pages are useful to the community and improve future docs and feedback discussions.
+
+This website analytics script is separate from the planned SmartXDrip app. It does not mean the app will include advertising or analytics SDKs.
 
 ---
 
