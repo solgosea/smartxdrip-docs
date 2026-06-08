@@ -2,7 +2,7 @@
 
 ## Already using [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/)?
 
-SmartXDrip is a planned companion app for reviewing CGM data more clearly. It does not replace [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/). It focuses on Home, History, and Stats views for the data you already collect.
+SmartXDrip is a planned companion app for CGM review and analysis. It is built for people who already rely on [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) as valuable parts of their CGM workflow. It does not replace either project. It focuses on Home, History, and Stats views for the data users already collect.
 
 View the documentation site:
 
@@ -27,7 +27,9 @@ https://solgosea.github.io/smartxdrip-docs/
 
 ## Why this exists
 
-[xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) are powerful parts of the CGM ecosystem. SmartXDrip is exploring whether users also need a calmer review layer for daily status, day-by-day history, and multi-day statistics.
+[xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) have created a strong foundation for CGM users: data collection, device workflows, alerts, uploads, sharing, and user-controlled access to glucose data.
+
+SmartXDrip starts from respect for that foundation. It is exploring a companion workspace for daily status, day-by-day history, multi-day statistics, and user-facing data interpretation.
 
 The goal is to help answer:
 
@@ -50,9 +52,11 @@ SmartXDrip is not intended to:
 - Replace [xDrip+](https://github.com/NightscoutFoundation/xDrip)
 - Replace [Nightscout](https://nightscout.github.io/)
 - Read CGM sensors directly
-- Act as an alerting system
+- Replace existing alert and safety workflows
 - Make treatment recommendations
 - Provide medical advice
+
+SmartXDrip should work alongside the existing tools users already trust, not ask users to move away from them.
 
 ## Feedback wanted
 

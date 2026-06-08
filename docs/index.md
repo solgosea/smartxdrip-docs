@@ -7,7 +7,7 @@
 # Already using [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/)?
 
 <p class="sx-hero-sub">
-SmartXDrip is a planned companion app for reviewing CGM data more clearly. Not another CGM source. Not a replacement. Just calmer Home, History, and Stats views built around the data you already collect with <a href="https://github.com/NightscoutFoundation/xDrip">xDrip+</a> or <a href="https://nightscout.github.io/">Nightscout</a>.
+SmartXDrip is a planned companion app for CGM review and analysis. It starts from respect for the work already done by <a href="https://github.com/NightscoutFoundation/xDrip">xDrip+</a> and <a href="https://nightscout.github.io/">Nightscout</a>. Not another CGM source. Not a replacement. It adds Home, History, and Stats views around data users already collect.
 </p>
 
 <div class="sx-hero-actions" markdown>
@@ -70,13 +70,15 @@ SmartXDrip is a planned companion app for reviewing CGM data more clearly. Not a
 
 ## For people already using [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/)
 
-SmartXDrip is planned as a companion review layer on top of CGM data already collected by [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/).
+SmartXDrip is planned as a companion review and analysis workspace for CGM data already collected by [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/).
+
+The existing tools remain central: [xDrip+](https://github.com/NightscoutFoundation/xDrip) handles Android CGM workflows, while [Nightscout](https://nightscout.github.io/) gives users and families control over their CGM data site and sharing model. SmartXDrip is meant to sit beside those workflows.
 
 It may be useful if you:
 
 - use [xDrip+](https://github.com/NightscoutFoundation/xDrip) as your Android CGM hub
 - use [Nightscout](https://nightscout.github.io/) as your personal or family CGM data site
-- want a quieter daily review screen instead of another alerting tool
+- want a dedicated daily review space alongside existing alert workflows
 - care about Time in Range, history, variability, and recurring patterns
 - want xDrip+ or Nightscout to remain the source of truth
 
@@ -87,7 +89,7 @@ The app would help users answer everyday questions:
 - Which days or time windows are repeatedly difficult?
 - Are my Time in Range, average glucose, and variability improving?
 
-SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightscout, act as an alerting system, or provide medical advice.
+SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightscout, replace existing alert and safety workflows, or provide medical advice.
 
 ---
 
@@ -113,7 +115,7 @@ SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightsco
 
 <div class="sx-feature" markdown>
 <div class="sx-feature-icon">03 · STATS</div>
-<div class="sx-feature-title">Readable statistics</div>
+<div class="sx-feature-title">Statistics summary</div>
 <p class="sx-feature-desc">Time in Range, average glucose, variability, range breakdown, and visual summaries across 7 to 90 days.</p>
 <a class="sx-feature-link" href="planned-features/stats/">Preview Stats</a>
 </div>
@@ -132,7 +134,7 @@ The most useful feedback right now is:
 - Whether the screenshots show information in a useful order
 - Whether xDrip+ and Nightscout users expect a different review workflow
 - Which terms are confusing for non-clinical users
-- What safety language should be made clearer
+- What safety language needs more detail
  
 ---
 
@@ -152,7 +154,7 @@ SmartXDrip should fit into the [xDrip+](https://github.com/NightscoutFoundation/
 
 - [xDrip+](https://github.com/NightscoutFoundation/xDrip) remains the Android data hub and sensor-facing tool.
 - [Nightscout](https://nightscout.github.io/) remains the user-controlled CGM site and sharing layer.
-- SmartXDrip focuses only on review, interpretation, and feedback-friendly summaries.
+- SmartXDrip remains a companion app focused on review, interpretation, and feedback-friendly summaries.
 
 ---
 

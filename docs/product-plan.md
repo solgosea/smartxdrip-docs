@@ -2,7 +2,7 @@
 
 SmartXDrip is a planned companion review app for people who already use [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) to collect CGM data.
 
-The product direction is simple: keep [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) as the source of truth, then add a calmer review layer that makes daily and historical glucose patterns easier to read.
+The product direction starts with respect for the existing ecosystem. [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) already provide important CGM workflows for data collection, alerts, uploads, sharing, and user-controlled access. SmartXDrip keeps those tools as the source of truth, then adds a companion workspace for daily review, historical patterns, statistics, and user-facing data interpretation.
 
 ---
 
@@ -30,7 +30,7 @@ SmartXDrip is not intended to:
 - Read CGM sensors directly
 - Replace [xDrip+](https://github.com/NightscoutFoundation/xDrip)
 - Replace [Nightscout](https://nightscout.github.io/)
-- Act as an alerting system
+- Replace existing alert and safety workflows
 - Upload glucose data to a SmartXDrip cloud
 - Make treatment decisions
 - Provide medical advice
@@ -41,12 +41,14 @@ SmartXDrip is not intended to:
 
 SmartXDrip is mainly for:
 
-- [xDrip+](https://github.com/NightscoutFoundation/xDrip) users who want a simpler daily review view
-- [Nightscout](https://nightscout.github.io/) users who want a mobile-friendly way to revisit patterns
+- [xDrip+](https://github.com/NightscoutFoundation/xDrip) users who want a dedicated daily review view
+- [Nightscout](https://nightscout.github.io/) users who want an additional way to revisit patterns
 - parents, partners, and self-trackers who already rely on existing CGM data flows
 - people who want summaries without moving away from their current setup
 
 The project should be careful not to add another required service or another source of truth.
+
+The relationship should be additive: SmartXDrip should help users work with the CGM data they already collect, while preserving the role of the tools and communities they already rely on.
 
 ---
 
@@ -64,7 +66,7 @@ The project should be careful not to add another required service or another sou
 
 The main questions for the first public review are:
 
-- Would xDrip+ or Nightscout users want this extra analysis layer?
+- Would xDrip+ or Nightscout users want this companion analysis workspace?
 - Are Home, History, and Stats the right first three features?
 - Which details should be removed to keep the app simple?
 - Which details are missing for real daily use?
