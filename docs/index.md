@@ -4,10 +4,10 @@
 
 <div class="sx-hero-eyebrow">FOR XDRIP+ · NIGHTSCOUT · COMMUNITY REVIEW</div>
 
-# Already using xDrip+ or Nightscout?
+# Already using [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/)?
 
 <p class="sx-hero-sub">
-SmartXDrip is a planned companion app for reviewing CGM data more clearly. Not another CGM source. Not a replacement. Just calmer Home, History, and Stats views built around the data you already collect.
+SmartXDrip is a planned companion app for reviewing CGM data more clearly. Not another CGM source. Not a replacement. Just calmer Home, History, and Stats views built around the data you already collect with <a href="https://github.com/NightscoutFoundation/xDrip">xDrip+</a> or <a href="https://nightscout.github.io/">Nightscout</a>.
 </p>
 
 <div class="sx-hero-actions" markdown>
@@ -17,11 +17,11 @@ SmartXDrip is a planned companion app for reviewing CGM data more clearly. Not a
 
 <div class="sx-stats">
   <div class="sx-stat">
-    <div class="sx-stat-value">xDrip+</div>
+    <div class="sx-stat-value"><a href="https://github.com/NightscoutFoundation/xDrip">xDrip+</a></div>
     <div class="sx-stat-label">Android data source</div>
   </div>
   <div class="sx-stat">
-    <div class="sx-stat-value">Nightscout</div>
+    <div class="sx-stat-value"><a href="https://nightscout.github.io/">Nightscout</a></div>
     <div class="sx-stat-label">Cloud/self-hosted source</div>
   </div>
   <div class="sx-stat">
@@ -68,14 +68,14 @@ SmartXDrip is a planned companion app for reviewing CGM data more clearly. Not a
 
 <span class="sx-eyebrow">What this is</span>
 
-## For people already using xDrip+ or Nightscout
+## For people already using [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/)
 
-SmartXDrip is planned as a companion review layer on top of CGM data already collected by xDrip+ or Nightscout.
+SmartXDrip is planned as a companion review layer on top of CGM data already collected by [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/).
 
 It may be useful if you:
 
-- use xDrip+ as your Android CGM hub
-- use Nightscout as your personal or family CGM data site
+- use [xDrip+](https://github.com/NightscoutFoundation/xDrip) as your Android CGM hub
+- use [Nightscout](https://nightscout.github.io/) as your personal or family CGM data site
 - want a quieter daily review screen instead of another alerting tool
 - care about Time in Range, history, variability, and recurring patterns
 - want xDrip+ or Nightscout to remain the source of truth
@@ -138,10 +138,10 @@ The most useful feedback right now is:
 
 ## Respecting the existing ecosystem
 
-SmartXDrip should fit into the xDrip+ and Nightscout ecosystem without competing with the tools users already rely on.
+SmartXDrip should fit into the [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) ecosystem without competing with the tools users already rely on.
 
-- xDrip+ remains the Android data hub and sensor-facing tool.
-- Nightscout remains the user-controlled CGM site and sharing layer.
+- [xDrip+](https://github.com/NightscoutFoundation/xDrip) remains the Android data hub and sensor-facing tool.
+- [Nightscout](https://nightscout.github.io/) remains the user-controlled CGM site and sharing layer.
 - SmartXDrip focuses only on review, interpretation, and feedback-friendly summaries.
 
 ---

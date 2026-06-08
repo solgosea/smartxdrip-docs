@@ -10,7 +10,7 @@ It should answer one question quickly: **what is happening with my glucose right
 
 ## Planned purpose
 
-The Home screen would combine current-day signals from data already collected by xDrip+ or Nightscout:
+The Home screen would combine current-day signals from data already collected by [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/):
 
 - Latest CGM reading
 - Trend direction
@@ -19,7 +19,7 @@ The Home screen would combine current-day signals from data already collected by
 - Average glucose and variability
 - A simple one-line summary
 
-The goal is not to replace source-app views or alerts. The goal is to give xDrip+ and Nightscout users a calmer place to review the day.
+The goal is not to replace source-app views or alerts. The goal is to give [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) users a calmer place to review the day.
 
 ---
 

@@ -9,23 +9,23 @@
 : No. This repository is for public documentation, feature previews, and feedback. It does not currently contain the SmartXDrip application source code.
 
 **Why publish docs before the app is finished?**
-: The goal is to validate whether xDrip+ and Nightscout users actually want this kind of companion review app, and to learn which features should be simplified, changed, or delayed.
+: The goal is to validate whether [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) users actually want this kind of companion review app, and to learn which features should be simplified, changed, or delayed.
 
 ---
 
-## Relationship to xDrip+ and Nightscout
+## Relationship to [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/)
 
 **Does SmartXDrip replace xDrip+?**
-: No. xDrip+ would remain the tool that receives and manages CGM data on Android. SmartXDrip is planned as a clearer review and analysis layer on top of that data.
+: No. [xDrip+](https://github.com/NightscoutFoundation/xDrip) would remain the tool that receives and manages CGM data on Android. SmartXDrip is planned as a clearer review and analysis layer on top of that data.
 
 **Does SmartXDrip replace Nightscout?**
-: No. Nightscout would remain a user-controlled data source. SmartXDrip would read from a Nightscout instance that the user configures.
+: No. [Nightscout](https://nightscout.github.io/) would remain a user-controlled data source. SmartXDrip would read from a Nightscout instance that the user configures.
 
 **Will SmartXDrip read CGM sensors directly?**
 : No. The planned app would not communicate with CGM sensors directly. It would read data already collected by xDrip+ or Nightscout.
 
 **Will SmartXDrip become my source of truth?**
-: No. xDrip+ or Nightscout should remain the source of truth. SmartXDrip is planned as a review layer for data already collected elsewhere.
+: No. [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) should remain the source of truth. SmartXDrip is planned as a review layer for data already collected elsewhere.
 
 ---
 
@@ -44,7 +44,7 @@
 : A planned multi-day summary for Time in Range, average glucose, variability, range breakdown, and visual pattern review. See [Planned Feature: Stats](planned-features/stats.md).
 
 **Will SmartXDrip provide alerts?**
-: No, not in the planned first version. xDrip+ and Nightscout already provide alerting workflows. SmartXDrip is focused on review, not real-time safety alerts.
+: No, not in the planned first version. [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) already provide alerting workflows. SmartXDrip is focused on review, not real-time safety alerts.
 
 ---
 

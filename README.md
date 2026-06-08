@@ -1,8 +1,8 @@
 # SmartXDrip Docs
 
-## Already using xDrip+ or Nightscout?
+## Already using [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/)?
 
-SmartXDrip is a planned companion app for reviewing CGM data more clearly. It does not replace xDrip+ or Nightscout. It focuses on Home, History, and Stats views for the data you already collect.
+SmartXDrip is a planned companion app for reviewing CGM data more clearly. It does not replace [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/). It focuses on Home, History, and Stats views for the data you already collect.
 
 View the documentation site:
 
@@ -27,7 +27,7 @@ https://solgosea.github.io/smartxdrip-docs/
 
 ## Why this exists
 
-xDrip+ and Nightscout are powerful parts of the CGM ecosystem. SmartXDrip is exploring whether users also need a calmer review layer for daily status, day-by-day history, and multi-day statistics.
+[xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) are powerful parts of the CGM ecosystem. SmartXDrip is exploring whether users also need a calmer review layer for daily status, day-by-day history, and multi-day statistics.
 
 The goal is to help answer:
 
@@ -39,8 +39,8 @@ The goal is to help answer:
 
 SmartXDrip is not intended to:
 
-- Replace xDrip+
-- Replace Nightscout
+- Replace [xDrip+](https://github.com/NightscoutFoundation/xDrip)
+- Replace [Nightscout](https://nightscout.github.io/)
 - Read CGM sensors directly
 - Act as an alerting system
 - Make treatment recommendations
@@ -51,8 +51,8 @@ SmartXDrip is not intended to:
 The first public review focuses on:
 
 - Whether Home, History, and Stats are the right first screens
-- What xDrip+ users would expect from a review app
-- What Nightscout users would expect from a review app
+- What [xDrip+](https://github.com/NightscoutFoundation/xDrip) users would expect from a review app
+- What [Nightscout](https://nightscout.github.io/) users would expect from a review app
 - Which details feel useful, confusing, or unnecessary
 - Where SmartXDrip should stop so it does not duplicate existing tools
 

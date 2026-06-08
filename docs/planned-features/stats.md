@@ -1,6 +1,6 @@
 # Planned Feature: Stats
 
-Stats is planned as a readable summary of glucose patterns across multiple days of xDrip+ or Nightscout data.
+Stats is planned as a readable summary of glucose patterns across multiple days of [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) data.
 
 It should help users understand whether their glucose control is improving, stable, or getting harder to manage.
 

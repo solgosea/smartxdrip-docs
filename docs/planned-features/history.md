@@ -10,7 +10,7 @@ It should help users look back at a specific day and understand what happened wi
 
 ## Planned purpose
 
-The History screen would show data already collected by xDrip+ or Nightscout:
+The History screen would show data already collected by [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/):
 
 - A selected date
 - A full-day glucose curve
@@ -19,7 +19,7 @@ The History screen would show data already collected by xDrip+ or Nightscout:
 - High and low event markers
 - A timeline of detected events
 
-The goal is to make retrospective review easier, especially after difficult days, while leaving xDrip+ or Nightscout as the original data source.
+The goal is to make retrospective review easier, especially after difficult days, while leaving [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) as the original data source.
 
 ---
 

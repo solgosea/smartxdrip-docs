@@ -1,8 +1,8 @@
 # Product Plan
 
-SmartXDrip is a planned companion review app for people who already use xDrip+ or Nightscout to collect CGM data.
+SmartXDrip is a planned companion review app for people who already use [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) to collect CGM data.
 
-The product direction is simple: keep xDrip+ and Nightscout as the source of truth, then add a calmer review layer that makes daily and historical glucose patterns easier to read.
+The product direction is simple: keep [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) as the source of truth, then add a calmer review layer that makes daily and historical glucose patterns easier to read.
 
 ---
 
@@ -10,8 +10,8 @@ The product direction is simple: keep xDrip+ and Nightscout as the source of tru
 
 SmartXDrip would read glucose data from:
 
-- **xDrip+** on Android through its local Web Service
-- **Nightscout** through a user-provided URL and readable token
+- **[xDrip+](https://github.com/NightscoutFoundation/xDrip)** on Android through its local Web Service
+- **[Nightscout](https://nightscout.github.io/)** through a user-provided URL and readable token
 
 Then it would present that data through:
 
@@ -28,8 +28,8 @@ The first version is intentionally small. The goal is to validate whether these 
 SmartXDrip is not intended to:
 
 - Read CGM sensors directly
-- Replace xDrip+
-- Replace Nightscout
+- Replace [xDrip+](https://github.com/NightscoutFoundation/xDrip)
+- Replace [Nightscout](https://nightscout.github.io/)
 - Act as an alerting system
 - Upload glucose data to a SmartXDrip cloud
 - Make treatment decisions
@@ -41,8 +41,8 @@ SmartXDrip is not intended to:
 
 SmartXDrip is mainly for:
 
-- xDrip+ users who want a simpler daily review view
-- Nightscout users who want a mobile-friendly way to revisit patterns
+- [xDrip+](https://github.com/NightscoutFoundation/xDrip) users who want a simpler daily review view
+- [Nightscout](https://nightscout.github.io/) users who want a mobile-friendly way to revisit patterns
 - parents, partners, and self-trackers who already rely on existing CGM data flows
 - people who want summaries without moving away from their current setup
 

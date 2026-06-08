@@ -15,8 +15,8 @@ The current design goals are:
 - No advertising or analytics SDKs
 - Local storage for glucose readings
 - User-controlled data sources
-- Read-only access to xDrip+ or Nightscout data
-- xDrip+ or Nightscout remaining the source of truth
+- Read-only access to [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) data
+- [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) remaining the source of truth
 
 ---
 
@@ -24,8 +24,8 @@ The current design goals are:
 
 SmartXDrip is planned to read from:
 
-- **xDrip+ local Web Service** on Android
-- **Nightscout** through a user-provided URL and readable token
+- **[xDrip+](https://github.com/NightscoutFoundation/xDrip) local Web Service** on Android
+- **[Nightscout](https://nightscout.github.io/)** through a user-provided URL and readable token
 
 SmartXDrip is not planned to read CGM sensors directly.
 
@@ -35,7 +35,7 @@ SmartXDrip is not planned to read CGM sensors directly.
 
 The intended model is:
 
-- xDrip+ or Nightscout collects the CGM data
+- [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) collects the CGM data
 - SmartXDrip reads the data for review and analysis
 - SmartXDrip stores app data locally on the user's device
 - SmartXDrip does not write treatment decisions back to the source system
