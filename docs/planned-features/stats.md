@@ -20,7 +20,7 @@ The Stats screen would summarize:
 - AGP-style daily pattern
 - Hourly Time in Range heatmap
 
-The goal is to present common CGM metrics for everyday review, not to create a clinical dashboard or replace reports users already trust.
+The goal is to present common CGM metrics for everyday review, not to create a clinical dashboard or replace views users already trust.
 
 ---
 

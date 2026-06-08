@@ -2,7 +2,7 @@
 
 SmartXDrip is a planned companion review app for people who already use [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/) to collect CGM data.
 
-The product direction starts with respect for the existing ecosystem. [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) already provide important CGM workflows for data collection, alerts, uploads, sharing, and user-controlled access. SmartXDrip keeps those tools as the source of truth, then adds a companion workspace for daily review, historical patterns, statistics, and user-facing data interpretation.
+The product direction starts with respect for the existing ecosystem. [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) already provide important CGM workflows for data collection, uploads, sharing, and user-controlled access. SmartXDrip keeps those tools as the source of truth, then adds a companion workspace for daily review, historical patterns, statistics, and user-facing data interpretation.
 
 ---
 
@@ -15,11 +15,13 @@ SmartXDrip would read glucose data from:
 
 Then it would present that data through:
 
-- A current-day Home view
-- A day-by-day History view
-- A Stats view for Time in Range, average glucose, variability, and range breakdown
+- A current-day [Home](planned-features/home.md) view
+- An [Insights](features/insights.md) page for plain-language daily and weekly summaries
+- A day-by-day [History](planned-features/history.md) view
+- [High Episode](features/high-episode.md) and [Low Episode](features/low-episode.md) detail pages opened from History
+- A [Stats](planned-features/stats.md) view for Time in Range, average glucose, variability, and range breakdown
 
-The first public review is intentionally focused. Home, History, and Stats are the starting point, not the final scope. Future features should be added step by step based on community feedback and real user needs.
+The first public review is intentionally focused. Future features should be added step by step based on community feedback and real user needs.
 
 ---
 
@@ -30,7 +32,7 @@ SmartXDrip is not intended to:
 - Read CGM sensors directly
 - Replace [xDrip+](https://github.com/NightscoutFoundation/xDrip)
 - Replace [Nightscout](https://nightscout.github.io/)
-- Replace existing alert and safety workflows
+- Replace existing safety workflows
 - Upload glucose data to a SmartXDrip cloud
 - Make treatment decisions
 - Provide medical advice
@@ -48,8 +50,6 @@ SmartXDrip is mainly for:
 
 The project should be careful not to add another required service or another source of truth.
 
-The relationship should be additive: SmartXDrip should help users work with the CGM data they already collect, while preserving the role of the tools and communities they already rely on.
-
 ---
 
 ## First planned features
@@ -57,17 +57,17 @@ The relationship should be additive: SmartXDrip should help users work with the 
 | Feature | Purpose | Feedback needed |
 |---|---|---|
 | [Home](planned-features/home.md) | Show the current glucose state clearly | Is the first screen useful at a glance? |
+| [Insights](features/insights.md) | Explain recent data in plain language | Are the summaries useful and careful enough? |
 | [History](planned-features/history.md) | Review one day at a time | Does the daily review match how users think about CGM data? |
+| [High Episode](features/high-episode.md) / [Low Episode](features/low-episode.md) | Drill into sustained high and low events from History | What context matters when reviewing an event? |
 | [Stats](planned-features/stats.md) | Summarize 7-90 day patterns | Are the metrics and charts understandable? |
 
 ---
 
 ## Community questions
 
-The main questions for the first public review are:
-
 - Would xDrip+ or Nightscout users want this companion analysis workspace?
-- Are Home, History, and Stats the right starting point?
+- Are Home, Insights, History, Episode Detail, and Stats the right starting point?
 - Which details should be removed to keep the app simple?
 - Which details are missing for real daily use?
 - Should the app be Android-first, Nightscout-first, or support both from the start?

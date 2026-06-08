@@ -50,7 +50,10 @@ nav:
   - Product Plan: product-plan.md
   - Planned Features:
       - planned-features/home.md
+      - features/insights.md
       - planned-features/history.md
+      - features/high-episode.md
+      - features/low-episode.md
       - planned-features/stats.md
   - FAQ: faq.md
   - Privacy: privacy.md

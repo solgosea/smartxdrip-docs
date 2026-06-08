@@ -2,12 +2,12 @@
 
 <div class="sx-hero" markdown>
 
-<div class="sx-hero-eyebrow">FOR XDRIP+ · NIGHTSCOUT · COMMUNITY REVIEW</div>
+<div class="sx-hero-eyebrow">FOR XDRIP+ / NIGHTSCOUT / COMMUNITY REVIEW</div>
 
 # Already using [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/)?
 
 <p class="sx-hero-sub">
-SmartXDrip is a planned companion app for CGM review and analysis. It starts from respect for the work already done by <a href="https://github.com/NightscoutFoundation/xDrip">xDrip+</a> and <a href="https://nightscout.github.io/">Nightscout</a>. Not another CGM source. Not a replacement. The current public review starts with Home, History, and Stats views, then future features will be shaped step by step based on community feedback and real user needs.
+SmartXDrip is a planned companion app for CGM review and analysis. It starts from respect for the work already done by <a href="https://github.com/NightscoutFoundation/xDrip">xDrip+</a> and <a href="https://nightscout.github.io/">Nightscout</a>. Not another CGM source. Not a replacement. The current public review starts with Home, Insights, History, High/Low Episode review, and Stats.
 </p>
 
 <div class="sx-hero-actions" markdown>
@@ -25,8 +25,8 @@ SmartXDrip is a planned companion app for CGM review and analysis. It starts fro
     <div class="sx-stat-label">Cloud/self-hosted source</div>
   </div>
   <div class="sx-stat">
-    <div class="sx-stat-value">3</div>
-    <div class="sx-stat-label">First planned features</div>
+    <div class="sx-stat-value">5</div>
+    <div class="sx-stat-label">Public review areas</div>
   </div>
   <div class="sx-stat">
     <div class="sx-stat-value">Feedback</div>
@@ -38,9 +38,9 @@ SmartXDrip is a planned companion app for CGM review and analysis. It starts fro
 
 ---
 
-<span class="sx-eyebrow">First planned screens</span>
+<span class="sx-eyebrow">Public preview screens</span>
 
-## Home, History, and Stats
+## Home, Insights, History, Episode Detail, and Stats
 
 <div class="sx-preview-grid" markdown>
 
@@ -51,9 +51,31 @@ SmartXDrip is a planned companion app for CGM review and analysis. It starts fro
 </div>
 
 <div class="sx-preview" markdown>
+<div class="sx-preview-title">Insights</div>
+![Insights preview](assets/screenshots/insights-hero.png)
+<p>What should I notice in my recent data?</p>
+</div>
+
+<div class="sx-preview" markdown>
 <div class="sx-preview-title">History</div>
 ![History preview](assets/screenshots/history-hero.png)
 <p>What happened on a specific day?</p>
+</div>
+
+</div>
+
+<div class="sx-preview-grid" markdown>
+
+<div class="sx-preview" markdown>
+<div class="sx-preview-title">High Episode</div>
+![High Episode preview](assets/screenshots/high-episode-hero.png)
+<p>Why did this sustained high stand out?</p>
+</div>
+
+<div class="sx-preview" markdown>
+<div class="sx-preview-title">Low Episode</div>
+![Low Episode preview](assets/screenshots/low-episode-hero.png)
+<p>What happened around this sustained low?</p>
 </div>
 
 <div class="sx-preview" markdown>
@@ -78,18 +100,11 @@ It may be useful if you:
 
 - use [xDrip+](https://github.com/NightscoutFoundation/xDrip) as your Android CGM hub
 - use [Nightscout](https://nightscout.github.io/) as your personal or family CGM data site
-- want a dedicated daily review space alongside existing alert workflows
+- want a dedicated daily review space alongside existing safety workflows
 - care about Time in Range, history, variability, and recurring patterns
 - want xDrip+ or Nightscout to remain the source of truth
 
-The app would help users answer everyday questions:
-
-- What is happening with my glucose right now?
-- How did today compare with recent days?
-- Which days or time windows are repeatedly difficult?
-- Are my Time in Range, average glucose, and variability improving?
-
-SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightscout, replace existing alert and safety workflows, or provide medical advice.
+SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightscout, replace existing safety workflows, or provide medical advice.
 
 ---
 
@@ -100,21 +115,35 @@ SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightsco
 <div class="sx-feature-grid" markdown>
 
 <div class="sx-feature" markdown>
-<div class="sx-feature-icon">01 · HOME</div>
+<div class="sx-feature-icon">01 / HOME</div>
 <div class="sx-feature-title">Current glucose overview</div>
-<p class="sx-feature-desc">A focused first screen for the latest reading, short-term trend, today's Time in Range, and one plain-language summary.</p>
+<p class="sx-feature-desc">Latest reading, short-term trend, today's Time in Range, and one plain-language summary.</p>
 <a class="sx-feature-link" href="planned-features/home/">Preview Home</a>
 </div>
 
 <div class="sx-feature" markdown>
-<div class="sx-feature-icon">02 · HISTORY</div>
+<div class="sx-feature-icon">02 / INSIGHTS</div>
+<div class="sx-feature-title">Plain-language review</div>
+<p class="sx-feature-desc">Daily brief, weekly review, and narrative pattern cards opened from the Home summary.</p>
+<a class="sx-feature-link" href="features/insights/">Preview Insights</a>
+</div>
+
+<div class="sx-feature" markdown>
+<div class="sx-feature-icon">03 / HISTORY</div>
 <div class="sx-feature-title">Day-by-day review</div>
-<p class="sx-feature-desc">A daily timeline for reviewing glucose curves, high/low events, and what happened on a specific day.</p>
+<p class="sx-feature-desc">Daily timeline for reviewing glucose curves, high/low events, and what happened on a specific day.</p>
 <a class="sx-feature-link" href="planned-features/history/">Preview History</a>
 </div>
 
 <div class="sx-feature" markdown>
-<div class="sx-feature-icon">03 · STATS</div>
+<div class="sx-feature-icon">04 / EPISODES</div>
+<div class="sx-feature-title">High and low detail</div>
+<p class="sx-feature-desc">Focused review pages for sustained high and low events opened from History.</p>
+<a class="sx-feature-link" href="features/high-episode/">Preview High Episode</a>
+</div>
+
+<div class="sx-feature" markdown>
+<div class="sx-feature-icon">05 / STATS</div>
 <div class="sx-feature-title">Statistics summary</div>
 <p class="sx-feature-desc">Time in Range, average glucose, variability, range breakdown, and visual summaries across 7 to 90 days.</p>
 <a class="sx-feature-link" href="planned-features/stats/">Preview Stats</a>
@@ -130,12 +159,12 @@ This repository is being published before the product is finalized so xDrip+ and
 
 The most useful feedback right now is:
 
-- Whether Home / History / Stats are the right starting point
+- Whether Home / Insights / History / Episode Detail / Stats are the right starting point
 - Whether the screenshots show information in a useful order
 - Whether xDrip+ and Nightscout users expect a different review workflow
 - Which terms are confusing for non-clinical users
 - What safety language needs more detail
- 
+
 ---
 
 ## Give feedback

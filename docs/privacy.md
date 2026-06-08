@@ -39,7 +39,7 @@ The intended model is:
 - SmartXDrip reads the data for review and analysis
 - SmartXDrip stores app data locally on the user's device
 - SmartXDrip does not write treatment decisions back to the source system
-- SmartXDrip does not replace the alerting and safety workflows users already rely on
+- SmartXDrip does not replace the safety workflows users already rely on
 
 If implementation requires any change to this model, the documentation should be updated clearly before release.
 
