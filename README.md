@@ -2,7 +2,7 @@
 
 This repository hosts the public product plan, feature previews, and community feedback space for SmartXDrip.
 
-SmartXDrip is a planned companion app for people who already use xDrip+ or Nightscout. The goal is to help users review CGM data through clearer daily views, history, and statistics without replacing the tools that collect the data.
+SmartXDrip is a planned companion review app for people who already use xDrip+ or Nightscout. It does not replace either project. It keeps xDrip+ and Nightscout as the data sources and focuses on calmer daily review, history, and statistics.
 
 ## Repository scope
 
@@ -23,8 +23,19 @@ The first documentation batch focuses on the planned MVP:
 - Home
 - History
 - Stats
-- xDrip+ and Nightscout as data sources
+- xDrip+ and Nightscout as the source of truth
 - Privacy and medical-safety boundaries
+
+## Product boundaries
+
+SmartXDrip is not intended to:
+
+- Replace xDrip+
+- Replace Nightscout
+- Read CGM sensors directly
+- Act as an alerting system
+- Make treatment recommendations
+- Provide medical advice
 
 ## Local preview
 

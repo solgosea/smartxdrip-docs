@@ -1,8 +1,8 @@
 # Product Plan
 
-SmartXDrip is a planned companion app for people who already use xDrip+ or Nightscout to collect CGM data.
+SmartXDrip is a planned companion review app for people who already use xDrip+ or Nightscout to collect CGM data.
 
-The product direction is simple: keep xDrip+ and Nightscout as the data sources, then add a calmer analysis layer that makes glucose history easier to read.
+The product direction is simple: keep xDrip+ and Nightscout as the source of truth, then add a calmer review layer that makes daily and historical glucose patterns easier to read.
 
 ---
 
@@ -30,9 +30,23 @@ SmartXDrip is not intended to:
 - Read CGM sensors directly
 - Replace xDrip+
 - Replace Nightscout
+- Act as an alerting system
 - Upload glucose data to a SmartXDrip cloud
 - Make treatment decisions
 - Provide medical advice
+
+---
+
+## Intended users
+
+SmartXDrip is mainly for:
+
+- xDrip+ users who want a simpler daily review view
+- Nightscout users who want a mobile-friendly way to revisit patterns
+- parents, partners, and self-trackers who already rely on existing CGM data flows
+- people who want summaries without moving away from their current setup
+
+The project should be careful not to add another required service or another source of truth.
 
 ---
 
@@ -55,6 +69,7 @@ The main questions for the first public review are:
 - Which details should be removed to keep the app simple?
 - Which details are missing for real daily use?
 - Should the app be Android-first, Nightscout-first, or support both from the start?
+- Where should SmartXDrip stop so it does not become a replacement for existing tools?
 
 ---
 

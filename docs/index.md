@@ -2,12 +2,12 @@
 
 <div class="sx-hero" markdown>
 
-<div class="sx-hero-eyebrow">PLANNED CGM COMPANION · XDRIP+ · NIGHTSCOUT</div>
+<div class="sx-hero-eyebrow">FOR XDRIP+ · NIGHTSCOUT · COMMUNITY REVIEW</div>
 
-# A clearer layer for CGM data.
+# A companion review app for xDrip+ and Nightscout users.
 
 <p class="sx-hero-sub">
-SmartXDrip is a planned companion app for people who already use xDrip+ or Nightscout. The goal is not to replace those tools. The goal is to make their CGM data easier to review through focused daily views, history, and statistics.
+SmartXDrip is being designed for people who already collect CGM data with xDrip+ or Nightscout. It does not replace either project. It keeps them as the source of truth and adds a calmer way to review daily status, history, and statistics.
 </p>
 
 <div class="sx-hero-actions" markdown>
@@ -40,9 +40,17 @@ SmartXDrip is a planned companion app for people who already use xDrip+ or Night
 
 <span class="sx-eyebrow">What this is</span>
 
-## Product idea
+## For people already using xDrip+ or Nightscout
 
-SmartXDrip is planned as a readable analysis layer on top of CGM data already collected by xDrip+ or Nightscout.
+SmartXDrip is planned as a companion review layer on top of CGM data already collected by xDrip+ or Nightscout.
+
+It may be useful if you:
+
+- use xDrip+ as your Android CGM hub
+- use Nightscout as your personal or family CGM data site
+- want a quieter daily review screen instead of another alerting tool
+- care about Time in Range, history, variability, and recurring patterns
+- want xDrip+ or Nightscout to remain the source of truth
 
 The app would help users answer everyday questions:
 
@@ -51,7 +59,7 @@ The app would help users answer everyday questions:
 - Which days or time windows are repeatedly difficult?
 - Are my Time in Range, average glucose, and variability improving?
 
-SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightscout, or provide medical advice.
+SmartXDrip would not read CGM sensors directly, replace xDrip+, replace Nightscout, act as an alerting system, or provide medical advice.
 
 ---
 
@@ -94,9 +102,19 @@ The most useful feedback right now is:
 
 - Whether Home / History / Stats are the right first features
 - Whether the screenshots show information in a useful order
-- Whether xDrip+ and Nightscout users expect a different workflow
+- Whether xDrip+ and Nightscout users expect a different review workflow
 - Which terms are confusing for non-clinical users
 - What safety language should be made clearer
+ 
+---
+
+## Respecting the existing ecosystem
+
+SmartXDrip should fit into the xDrip+ and Nightscout ecosystem without competing with the tools users already rely on.
+
+- xDrip+ remains the Android data hub and sensor-facing tool.
+- Nightscout remains the user-controlled CGM site and sharing layer.
+- SmartXDrip focuses only on review, interpretation, and feedback-friendly summaries.
 
 ---
 

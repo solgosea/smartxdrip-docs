@@ -1,6 +1,6 @@
 # Planned Feature: Home
 
-Home is planned as the first screen users see when they open SmartXDrip.
+Home is planned as the first review screen users see when they open SmartXDrip.
 
 It should answer one question quickly: **what is happening with my glucose right now?**
 
@@ -10,7 +10,7 @@ It should answer one question quickly: **what is happening with my glucose right
 
 ## Planned purpose
 
-The Home screen would combine the most important current-day signals:
+The Home screen would combine current-day signals from data already collected by xDrip+ or Nightscout:
 
 - Latest CGM reading
 - Trend direction
@@ -19,7 +19,7 @@ The Home screen would combine the most important current-day signals:
 - Average glucose and variability
 - A simple one-line summary
 
-The goal is to avoid forcing users to interpret raw numbers scattered across different tools.
+The goal is not to replace source-app views or alerts. The goal is to give xDrip+ and Nightscout users a calmer place to review the day.
 
 ---
 

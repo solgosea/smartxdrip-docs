@@ -9,7 +9,7 @@
 : No. This repository is for public documentation, feature previews, and feedback. It does not currently contain the SmartXDrip application source code.
 
 **Why publish docs before the app is finished?**
-: The goal is to validate whether xDrip+ and Nightscout users actually want this kind of companion app, and to learn which features should be simplified, changed, or delayed.
+: The goal is to validate whether xDrip+ and Nightscout users actually want this kind of companion review app, and to learn which features should be simplified, changed, or delayed.
 
 ---
 
@@ -23,6 +23,9 @@
 
 **Will SmartXDrip read CGM sensors directly?**
 : No. The planned app would not communicate with CGM sensors directly. It would read data already collected by xDrip+ or Nightscout.
+
+**Will SmartXDrip become my source of truth?**
+: No. xDrip+ or Nightscout should remain the source of truth. SmartXDrip is planned as a review layer for data already collected elsewhere.
 
 ---
 
@@ -39,6 +42,9 @@
 
 **What is Stats?**
 : A planned multi-day summary for Time in Range, average glucose, variability, range breakdown, and visual pattern review. See [Planned Feature: Stats](planned-features/stats.md).
+
+**Will SmartXDrip provide alerts?**
+: No, not in the planned first version. xDrip+ and Nightscout already provide alerting workflows. SmartXDrip is focused on review, not real-time safety alerts.
 
 ---
 
@@ -58,4 +64,4 @@
 ## Feedback
 
 **What feedback is most useful right now?**
-: Feedback on the planned Home, History, and Stats screens is the most useful: what feels clear, what feels unnecessary, what is missing, and what would make the app genuinely helpful for xDrip+ or Nightscout users.
+: Feedback on the planned Home, History, and Stats screens is the most useful: what feels clear, what feels unnecessary, what is missing, and what would make the app genuinely helpful without duplicating xDrip+ or Nightscout.

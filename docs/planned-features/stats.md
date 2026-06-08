@@ -1,6 +1,6 @@
 # Planned Feature: Stats
 
-Stats is planned as a readable summary of glucose patterns across multiple days.
+Stats is planned as a readable summary of glucose patterns across multiple days of xDrip+ or Nightscout data.
 
 It should help users understand whether their glucose control is improving, stable, or getting harder to manage.
 
@@ -20,7 +20,7 @@ The Stats screen would summarize:
 - AGP-style daily pattern
 - Hourly Time in Range heatmap
 
-The goal is to make common CGM metrics easier to interpret for everyday use.
+The goal is to make common CGM metrics easier to interpret for everyday review, not to create a clinical dashboard or replace reports users already trust.
 
 ---
 

@@ -16,6 +16,7 @@ The current design goals are:
 - Local storage for glucose readings
 - User-controlled data sources
 - Read-only access to xDrip+ or Nightscout data
+- xDrip+ or Nightscout remaining the source of truth
 
 ---
 
@@ -38,6 +39,7 @@ The intended model is:
 - SmartXDrip reads the data for review and analysis
 - SmartXDrip stores app data locally on the user's device
 - SmartXDrip does not write treatment decisions back to the source system
+- SmartXDrip does not replace the alerting and safety workflows users already rely on
 
 If implementation requires any change to this model, the documentation should be updated clearly before release.
 
@@ -52,6 +54,7 @@ It should not:
 - Diagnose conditions
 - Recommend insulin or medication dosing
 - Replace CGM alerts
+- Become the source of truth for CGM readings
 - Replace clinical guidance
 - Be used as the only basis for treatment decisions
 
