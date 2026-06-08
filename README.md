@@ -2,7 +2,7 @@
 
 ## Already using [xDrip+](https://github.com/NightscoutFoundation/xDrip) or [Nightscout](https://nightscout.github.io/)?
 
-SmartXDrip is a planned companion app for CGM review and analysis. It is built for people who already rely on [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) as valuable parts of their CGM workflow. It does not replace either project. It focuses on Home, History, and Stats views for the data users already collect.
+SmartXDrip is a planned companion app for CGM review and analysis. It is built for people who already rely on [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) as valuable parts of their CGM workflow. It does not replace either project. The current public review starts with Home, History, and Stats views, then future features will be shaped step by step based on community feedback and real user needs.
 
 View the documentation site:
 
@@ -62,7 +62,7 @@ SmartXDrip should work alongside the existing tools users already trust, not ask
 
 The first public review focuses on:
 
-- Whether Home, History, and Stats are the right first screens
+- Whether Home, History, and Stats are the right starting point
 - What [xDrip+](https://github.com/NightscoutFoundation/xDrip) users would expect from a review app
 - What [Nightscout](https://nightscout.github.io/) users would expect from a review app
 - Which details feel useful, confusing, or unnecessary

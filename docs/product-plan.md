@@ -19,7 +19,7 @@ Then it would present that data through:
 - A day-by-day History view
 - A Stats view for Time in Range, average glucose, variability, and range breakdown
 
-The first version is intentionally small. The goal is to validate whether these three views solve a real need before expanding into deeper analysis.
+The first public review is intentionally focused. Home, History, and Stats are the starting point, not the final scope. Future features should be added step by step based on community feedback and real user needs.
 
 ---
 
@@ -67,7 +67,7 @@ The relationship should be additive: SmartXDrip should help users work with the 
 The main questions for the first public review are:
 
 - Would xDrip+ or Nightscout users want this companion analysis workspace?
-- Are Home, History, and Stats the right first three features?
+- Are Home, History, and Stats the right starting point?
 - Which details should be removed to keep the app simple?
 - Which details are missing for real daily use?
 - Should the app be Android-first, Nightscout-first, or support both from the start?
