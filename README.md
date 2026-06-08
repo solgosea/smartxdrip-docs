@@ -35,6 +35,14 @@ The goal is to help answer:
 - What happened on a difficult day?
 - Are my Time in Range, average glucose, and variability changing?
 
+## Join the discussion
+
+Help shape the first version of SmartXDrip:
+
+- [What would you want to see first when opening a CGM review app?](https://github.com/solgosea/smartxdrip-docs/discussions/1)
+- [How do you review a difficult CGM day after it happens?](https://github.com/solgosea/smartxdrip-docs/discussions/2)
+- [Which CGM statistics actually help you understand your patterns?](https://github.com/solgosea/smartxdrip-docs/discussions/3)
+
 ## What this is not
 
 SmartXDrip is not intended to:

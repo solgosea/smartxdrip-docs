@@ -136,6 +136,16 @@ The most useful feedback right now is:
  
 ---
 
+## Give feedback
+
+SmartXDrip is being shaped around real xDrip+ and Nightscout workflows. Join one of the focused discussions:
+
+- [Home: What would you want to see first?](https://github.com/solgosea/smartxdrip-docs/discussions/1)
+- [History: How do you review a difficult CGM day?](https://github.com/solgosea/smartxdrip-docs/discussions/2)
+- [Stats: Which CGM statistics actually help?](https://github.com/solgosea/smartxdrip-docs/discussions/3)
+
+---
+
 ## Respecting the existing ecosystem
 
 SmartXDrip should fit into the [xDrip+](https://github.com/NightscoutFoundation/xDrip) and [Nightscout](https://nightscout.github.io/) ecosystem without competing with the tools users already rely on.
