@@ -8,6 +8,16 @@ View the documentation site:
 https://solgosea.github.io/smartxdrip-docs/
 ```
 
+## First planned screens
+
+<p>
+  <img src="docs/assets/screenshots/home-hero.png" width="220" alt="Home screen preview">
+  <img src="docs/assets/screenshots/history-hero.png" width="220" alt="History screen preview">
+  <img src="docs/assets/screenshots/stats-hero.png" width="220" alt="Stats screen preview">
+</p>
+
+The first planned release focuses on Home, History, and Stats for reviewing existing xDrip+ or Nightscout data.
+
 SmartXDrip is a planned companion review app for people who already use xDrip+ or Nightscout. It does not replace either project. It keeps xDrip+ and Nightscout as the data sources and focuses on calmer daily review, history, and statistics.
 
 ## Repository scope
